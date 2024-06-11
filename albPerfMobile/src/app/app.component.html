@@ -1,0 +1,12 @@
+<p>for user we've been looking at, clientId is 66186129</p>
+<br>
+<input style="width:100%" type="text" [(ngModel)]="token" placeholder="albridge performance token" />
+<br>
+<input style="width:100%" type="text" [(ngModel)]="investorId" placeholder="investorId" />
+<br>
+<button class="primary" type="button" (click)="getAlbridge()">Fetch</button>
+<div class="albridge-performance__manualScroll" id="sectionArea2"> 
+</div>
+<div style="margin-left:auto; margin-right:auto; margin-bottom: 20px; width: 100%">
+  <button *ngFor="let range of dateRangeOptions" (click)="changeRange(range)" class="secondary" type="button">{{range.displayName}}</button>
+</div>

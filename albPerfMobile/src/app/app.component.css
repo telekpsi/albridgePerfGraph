@@ -1,0 +1,15 @@
+.albridge-performance {
+    &__error-msg {
+        margin-top: 30px;
+    }
+
+    &__manualScroll{
+        min-width: 170px;
+        max-width: 100%;
+    }
+}
+
+#sectionArea2 {
+    background-color: white;
+    box-sizing: border-box !important;
+}
